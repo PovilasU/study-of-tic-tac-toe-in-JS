@@ -1,16 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+// import './win95.js'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div className='App'>
-        <h1>Hello World</h1>
-        <h1>Count: {count}</h1>
+        <h1>win95.js JavaScript library for Windows 95 , IE 3.0</h1>
+        <h2>win95.js library implementation and unit testing</h2>
       </div>
     
     

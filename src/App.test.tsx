@@ -4,8 +4,8 @@ expect.extend(matchers);
 import App from './App';
 
 
-it('Should have hello world', () => {
+it('Should have JavaScript library', () => {
   render(<App />);
-  const message = screen.queryByText(/Hello World/i);
+  const message = screen.queryByText(/JavaScript library/i);
   expect(message).toBeVisible();
 });
